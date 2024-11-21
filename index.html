@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snake Game</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Texto Básico</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Snake Game</h1>
-    <canvas id="gameCanvas"></canvas>
-    <script src="script.js"></script>
+  <div id="game-container">
+    <h1 id="title">Bem-vindo ao Jogo!</h1>
+    <p id="description">Você está em uma sala escura. O que deseja fazer?</p>
+    <div id="options">
+      <button onclick="chooseOption('explorar')">Explorar</button>
+      <button onclick="chooseOption('esperar')">Esperar</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
