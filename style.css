@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #282c34;
+  background-color: #1e1e1e;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -12,22 +12,23 @@ body {
 
 #game-container {
   text-align: center;
-  background: #3a3f47;
+  background: #333;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 button {
-  background: #61dafb;
+  background: #007bff;
   border: none;
   padding: 10px 20px;
   margin: 10px;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  color: white;
 }
 
 button:hover {
-  background: #21a1f1;
+  background: #0056b3;
 }
